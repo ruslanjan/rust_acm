@@ -1,4 +1,3 @@
-mod j;
 mod template;
 mod algorithms;
 mod codeforces;
