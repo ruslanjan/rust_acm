@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af640644-0a09-49ad-916e-442d8385f4cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/bitset.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/contest_1436/a.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/contest_1436/b.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/contest_1436/c.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/contest_1436/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/otc/contest_301018/a.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/otc/contest_301018/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/otc/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ityxjcp5" />
+  </component>
+  <component name="ProjectId" id="1jMTRXahZavR5lEuGmdMT5LOG1B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/codeforces/otc/contest_301018" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="language.rust.rustfmt" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/codeforces/otc/contest_301018" />
+      <recent name="$PROJECT_DIR$/src/codeforces/contest_1436" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Test a">
+    <configuration name="Test a (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package acm --lib codeforces::contest_1436::a" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package acm --lib codeforces::otc::contest_301018::a" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test codeforces::otc::contest_301018::a::first_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package acm --lib codeforces::otc::contest_301018::a::first_test -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package acm --lib tests" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Test" />
+      <item itemvalue="Cargo.Test a" />
+      <item itemvalue="Cargo.Test a (1)" />
+      <item itemvalue="Cargo.Test codeforces::otc::contest_301018::a::first_test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test a" />
+        <item itemvalue="Cargo.Test codeforces::otc::contest_301018::a::first_test" />
+        <item itemvalue="Cargo.Test a (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="runExternalLinterOnTheFly" value="true" />
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af640644-0a09-49ad-916e-442d8385f4cd" name="Default Changelist" comment="" />
+      <created>1603612953042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603612953042</updated>
+      <workItem from="1603612954276" duration="2533000" />
+      <workItem from="1603704935479" duration="1913000" />
+      <workItem from="1603720365383" duration="6232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="556" y="182" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603782771219">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="556" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1603782771219" />
+    <state x="556" y="182" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1034@0.23.1792.1034" timestamp="1603615073485" />
+    <state x="830" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603705720245">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="830" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1603705720245" />
+    <state width="1358" height="269" key="GridCell.Tab.0.bottom" timestamp="1603783211423">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1358" height="269" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1603783211423" />
+    <state width="1358" height="269" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1603615544016" />
+    <state width="1358" height="269" key="GridCell.Tab.0.center" timestamp="1603783211422">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1358" height="269" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1603783211422" />
+    <state width="1358" height="269" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1603615544015" />
+    <state width="1358" height="269" key="GridCell.Tab.0.left" timestamp="1603783211422">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1358" height="269" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1603783211422" />
+    <state width="1358" height="269" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1603615544015" />
+    <state width="1358" height="269" key="GridCell.Tab.0.right" timestamp="1603783211423">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1358" height="269" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1603783211423" />
+    <state width="1358" height="269" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1603615544015" />
+    <state width="1358" height="332" key="GridCell.Tab.1.bottom" timestamp="1603782749056">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1358" height="332" key="GridCell.Tab.1.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1603782749056" />
+    <state width="1358" height="332" key="GridCell.Tab.1.center" timestamp="1603782749056">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1358" height="332" key="GridCell.Tab.1.center/0.23.1792.1031@0.23.1792.1031" timestamp="1603782749056" />
+    <state width="1358" height="332" key="GridCell.Tab.1.left" timestamp="1603782749055">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1358" height="332" key="GridCell.Tab.1.left/0.23.1792.1031@0.23.1792.1031" timestamp="1603782749055" />
+    <state width="1358" height="332" key="GridCell.Tab.1.right" timestamp="1603782749056">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1358" height="332" key="GridCell.Tab.1.right/0.23.1792.1031@0.23.1792.1031" timestamp="1603782749056" />
+    <state x="593" y="159" key="SettingsEditor" timestamp="1603766475460">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="593" y="159" key="SettingsEditor/0.23.1792.1031@0.23.1792.1031" timestamp="1603766475460" />
+    <state x="757" y="242" width="670" height="676" key="search.everywhere.popup" timestamp="1603783076069">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="757" y="242" width="670" height="676" key="search.everywhere.popup/0.23.1792.1031@0.23.1792.1031" timestamp="1603783076069" />
+  </component>
+</project>
