@@ -30,8 +30,33 @@ impl<R: io::BufRead> Scanner<R> {
 }
 
 #[test]
-fn test_1() {
-    let input = "123";
+fn first_test() {
+    let input = "
+    ..|....
+    ....|...
+    ";
+    // let mut out: Vec<u8> = Vec::new();
+    // run(input.as_bytes(), &mut out);
+    run(input.as_bytes(), &mut io::stdout());
+}
+
+#[test]
+fn test_2() {
+    let input = "
+    .|...
+    ..|....
+    ";
+    // let mut out: Vec<u8> = Vec::new();
+    // run(input.as_bytes(), &mut out);
+    run(input.as_bytes(), &mut io::stdout());
+}
+
+#[test]
+fn test_3() {
+    let input = "
+    |
+    |
+    ";
     // let mut out: Vec<u8> = Vec::new();
     // run(input.as_bytes(), &mut out);
     run(input.as_bytes(), &mut io::stdout());
@@ -41,9 +66,40 @@ pub fn run<R: io::Read, O: io::Write>(input: R, output: &mut O) {
     // println!("{:#0130b}", 1_u128 << 127);
     let mut sc = Scanner::new(BufReader::new(input));
     let mut out = BufWriter::new(output);
-    let n: i32 = sc.next();
-    writeln!(out, "{}", n);
+    let a: String = sc.next();
+    let b: String = sc.next();
+    let mut al = 0;
+    let mut ar = 0;
+    let mut bl = 0;
+    let mut br = 0;
 
+    let mut iter = a.chars();
+    while let Some(c)  = iter.next() {
+        if c == '|' {
+            break;
+        }
+        al += 1;
+    }
+    while let Some(_)  = iter.next() {
+        ar += 1;
+    }
+
+    let mut iter = b.chars();
+    while let Some(c)  = iter.next() {
+        if c == '|' {
+            break;
+        }
+        bl += 1;
+    }
+    while let Some(_)  = iter.next() {
+        br += 1;
+    }
+
+    if al == bl || ar == br || al == br || ar == bl {
+        write!(out, "Yes");
+    } else {
+        write!(out, "No");
+    }
 }
 
 fn main() {

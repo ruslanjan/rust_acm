@@ -31,7 +31,7 @@ impl<R: io::BufRead> Scanner<R> {
 
 #[test]
 fn test_1() {
-    let input = "123";
+    let input = "6";
     // let mut out: Vec<u8> = Vec::new();
     // run(input.as_bytes(), &mut out);
     run(input.as_bytes(), &mut io::stdout());
@@ -41,9 +41,14 @@ pub fn run<R: io::Read, O: io::Write>(input: R, output: &mut O) {
     // println!("{:#0130b}", 1_u128 << 127);
     let mut sc = Scanner::new(BufReader::new(input));
     let mut out = BufWriter::new(output);
-    let n: i32 = sc.next();
-    writeln!(out, "{}", n);
-
+    let mut n: i32 = sc.next();
+    if n%2 == 1 {
+        write!(out, "7");
+        n -= 2;
+    }
+    for _ in 0..n/2 {
+        write!(out, "1");
+    }
 }
 
 fn main() {
