@@ -1,6 +1,7 @@
 mod template;
 mod algorithms;
 mod codeforces;
+mod hackerrank;
 
 #[cfg(test)]
 mod tests {
